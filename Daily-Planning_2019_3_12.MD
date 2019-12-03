@@ -27,13 +27,13 @@
 
 #### Please list the names of the lessons you completed today:
 
-*
+* Places you've been
 
 
 #### Please list the names of the projects you worked on today:
 
-*
+* Places you've been
 
 #### Please add a link to GitHub repository to all projects you worked on today:
 
-* 
+* https://github.com/CommaderDavid/Places-I-have-Been
