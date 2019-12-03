@@ -12,7 +12,12 @@ $(document).ready(function() {
   $("form#addPlace").submit(function(e) {
     event.preventDefault();
     var placeName = $("#place").val();
-    var newLocation = new Location(placeName);
+    var landmark = $("#landmark").val();
+    var year = $("#year").val();
+    var favoriteRestaurant = $("#restaurant").val();
+    var nextTime = $("#nextTime").val();
+
+    var newLocation = new Location(placeName, landmark, year, favoriteRestaurant, nextTime);
     console.log(newLocation);
   })
 })
