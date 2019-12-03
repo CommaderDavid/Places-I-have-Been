@@ -7,6 +7,10 @@ function Location(placeName, landmark, year, favoriteRestaurant, nextTime) {
   this.nextTime = nextTime;
 }
 
+Location.prototype.nextVisit = function() {
+  return "Next time: " + this.nextTime;
+}
+
 // Front end
 $(document).ready(function() {
   $("form#addPlace").submit(function(e) {
@@ -18,6 +22,8 @@ $(document).ready(function() {
     var nextTime = $("#nextTime").val();
 
     var newLocation = new Location(placeName, landmark, year, favoriteRestaurant, nextTime);
+
+    $("ul#result").append(newLocation.placeName)
     console.log(newLocation);
   })
 })
