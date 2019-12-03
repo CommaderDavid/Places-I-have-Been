@@ -3,9 +3,8 @@ function Location(placeName, landmark, year, favoriteRestaurant, nextTime) {
   this.placeName = placeName;
   this.landmark = landmark;
   this.year = year;
-  // this.favoriteRestaurant = favoriteRestaurant;
-  // this.nextTime = nextTime;
-  // console.log(placeName, landmarks, year, favoriteRestaurant, nextTime);
+  this.favoriteRestaurant = favoriteRestaurant;
+  this.nextTime = nextTime;
 }
 
 // Front end
