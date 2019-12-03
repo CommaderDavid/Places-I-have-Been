@@ -23,7 +23,11 @@ $(document).ready(function() {
 
     var newLocation = new Location(placeName, landmark, year, favoriteRestaurant, nextTime);
 
-    $("ul#result").append(newLocation.placeName)
+    $("ul#result").append("<div class = 'location'> <li>" + newLocation.placeName + "</li> <div class = 'details'> <li>" + newLocation.landmark + "</li> <li>" + newLocation.year + "</li> <li>" + newLocation.favoriteRestaurant + "</li> <li>" + newLocation.nextVisit() + "</li> </div> </div>");
+
     console.log(newLocation);
+    $(".location").click(function() {
+      $(this).children(".details").slideToggle();
+    })
   })
 })
