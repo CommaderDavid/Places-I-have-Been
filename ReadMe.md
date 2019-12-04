@@ -27,8 +27,20 @@ Display all properties when name is click on
 * **Output**:
   * Los Angeles: "Hollywood sign", "August of 2019", "In-n-Out burger", "Next time: See walk of fame"
 
+### Description
+This program takes info on the places you've been to and organizes them for you to see in a list. Clicking on the name of the location you've been, shows all the details for that location. This program was made using, _HTML, CSS, JavaScript, jQuery,_ and _GitHub_.
 
-* **Input**:
-  *
-* **Output**:
-  *
+### Setup Installation
+* Copy the repository
+* Open the HTML file in a browser of your choosing
+* Enter in the location and any other info during that trip.
+* Click Add and then repeat step 3
+* Enjoy
+
+### Contact / Support Info
+If you have any questions or concerns, please contact me at stealth259@gmail.com
+
+#### License
+This program is under the MIT license.
+
+Copyright (c) 2019 _**David Boedigheimer**_
